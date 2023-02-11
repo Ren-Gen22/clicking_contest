@@ -1,7 +1,7 @@
 const host = 'localhost';
 const port = 8000;
 const http = require("http");
-var express=require("express");
+var express= require("express");
 
 var app=express();
 app.use(express.static('static'));
